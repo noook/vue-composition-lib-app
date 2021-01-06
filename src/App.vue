@@ -12,7 +12,7 @@ export default defineComponent({
 });
 </script>
 
-<style src="@golem-ai/design-system/dist/design-system.css"></style>
+<style src="design-system/dist/design-system.css"></style>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
