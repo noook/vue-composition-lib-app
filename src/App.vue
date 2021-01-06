@@ -1,22 +1,14 @@
 <template>
   <div id="app">
     <GButton primary>Button</GButton>
-    <pre>{{ test }}</pre>
   </div>
 </template>
 
 <script>
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent } from '@vue/composition-api';
 
 export default defineComponent({
   name: 'App',
-  setup() {
-    const test = ref('test')
-
-    return {
-      test,
-    }
-  }
 });
 </script>
 
